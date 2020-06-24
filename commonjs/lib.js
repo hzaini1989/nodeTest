@@ -9,3 +9,8 @@ exports.add = function(a,b){
 exports.geekbang = {
   hello:'world'
 }
+
+// 只会输出下面
+module.exports = function minus(a,b){
+  return a- b;
+}
